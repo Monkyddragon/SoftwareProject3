@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mySocial - Responsive Social Media Website Using HTML, CSS, & JavaScript</title>
+    <!-- IconScout CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<nav>
+    <div class="container">
+        <h2 class="logo">
+            <b>RapporT</b>
+        </h2>
+        <div class="search-bar">
+            <i class="uil uil-search"></i>
+            <input type="search" placeholder="Search for.....">
+        </div>
+        <div class="create">
+            <label class="btn btn-primary" for="create-post">Create</label>
+            <div class="profile-photo">
+                <img src="./images/profile-fahad.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-------------------------------- MAIN ----------------------------------->
+<main>
+    <div class="container">
+        <!----------------- LEFT -------------------->
+        <div class="left">
+            <a class="profile">
+                <div class="profile-photo">
+                    <img src="./images/profile-fahad.jpg">
+                </div>
+                <div class="handle">
+                    <h4>Md.Fahad</h4>
+                    <p class="text-muted">
+                        @mdfahad
+                    </p>
+                </div>
+            </a>
+
+            <!----------------- SIDEBAR -------------------->
+            <div class="sidebar">
+                <a class="menu-item active">
+                    <span><i class="uil uil-home"></i></span>
+                    <h3>Home</h3>
+                </a>
+                <a class="menu-item">
+                    <span><i class="uil uil-compass"></i></span>
+                    <h3>Explore</h3>
+                </a>
+                <a href="file:///E:/SP/Software-Project-III-master-20241025T154700Z-001/Software-Project-III-master/notification.html" class= "menu-item"  id="notifications">
+                    <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span>
+                    <h3>Notification</h3>
+
+                    <!--------------- END NOTIFICATION POPUP --------------->
+                </a>
+                <a class="menu-item" id="messages-notifications">
+                    <span><i class="uil uil-envelope-alt"><small class="notification-count">6</small></i></span>
+                    <h3>Messages</h3>
+                </a>
+                <a class="menu-item">
+                    <span><i class="uil uil-bookmark"></i></span>
+                    <h3>Bookmarks</h3>
+                </a>
+                <a class="menu-item">
+                    <span><i class="uil uil-chart-line"></i></span>
+                    <h3>Analytics</h3>
+                </a>
+                <a class="menu-item" id="theme">
+                    <span><i class="uil uil-palette"></i></span>
+                    <h3>Theme</h3>
+                </a>
+                <a class="menu-item">
+                    <span><i class="uil uil-setting"></i></span>
+                    <h3>Setting</h3>
+                </a>
+            </div>
+            <!----------------- END OF SIDEBAR -------------------->
+            <label class="btn btn-primary" for="create-post">Create Post</label>
+        </div>
+    <!--------------- NOTIFICATION--------------->
+<div class="notifications-popup">
+    <div>
+        <div class="profile-photo">
+            <img src="./images/page2.jpg">
+        </div>
+        <div class="notification-body">
+            Welcome to <b>Hackathon</b>....Now you can post this page
+            <p class="text-muted">1 Hour Ago</p>
+        </div>
+    </div>
+    <div>
+        <div class="profile-photo">
+            <img src="./images/profile-ferdus.png">
+        </div>
+        <div class="notification-body">
+            <b>Ferdous Alam</b> sent you a friend request
+            <p class="text-muted">03:45 pm</p>
+        </div>
+    </div>
+    <div>
+        <div class="profile-photo">
+            <img src="./images/profile-mehadi.jpg">
+        </div>
+        <div class="notification-body">
+            <b>Mehadi Hasan</b> and <b>23 Others</b> liked your post
+            <p class="text-muted">4 Minutes Ago</p>
+        </div>
+    </div>
+    <div>
+        <div class="profile-photo">
+            <img src="./images/profile-mihad.jpg">
+        </div>
+        <div class="notification-body">
+            <b>Mihad Habib</b> commented on a post you are tagged in
+            <p class="text-muted">2 Days Ago</p>
+        </div>
+    </div>
+    <div>
+        <div class="profile-photo">
+            <img src="./images/profile-touhid.jpg">
+        </div>
+        <div class="notification-body">
+            <b>Touhid</b> posted in <b>programming hero</b>
+            <p class="text-muted">01:30 pm</p>
+        </div>
+    </div>
+    <div>
+        <div class="profile-photo">
+            <img src="./images/profile-zia.jpg">
+        </div>
+        <div class="notification-body">
+            <b>Ziaul Hasan</b> commented on your post
+            <p class="text-muted">5 Hour Ago</p>
+        </div>
+    </div>
+    <div>
+        <div class="profile-photo">
+            <img src="./images/profile-imrul.jpg">
+        </div>
+        <div class="notification-body">
+            <b>Md. Imrul</b> invited you to <b>Believer's-SIGN</b>
+            <p class="text-muted">8 Hour Ago</p>
+        </div>
+    </div>
+</div>
+<!--------------- NOTIFICATION END --------------->
+<!----------------- RIGHT -------------------->
+<div class="right">
+            <!------- MESSAGES ------->
+            <div class="messages">
+                <div class="heading">
+                    <h4>Contact</h4>
+                
+                </div>
+                <!------- MESSAGES ------->
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-touhid.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h4>Touhid Mahmud</h4>
+                    </div>
+                </div>
+                <!------- MESSAGES ------->
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-mehadi.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h4>Mehadi Hasan</h4>
+                    </div>
+                </div>
+
+                <!------- MESSAGES ------->
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-mihad.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h4>Mihad Habib</h4>
+                    </div>
+                </div>
+                <!------- MESSAGES ------->
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-zia.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h4>Ziaul Hasan</h4>
+                    </div>
+                </div>
+                                <!------- MESSAGES ------->
+                                <div class="message">
+                                    <div class="profile-photo">
+                                        <img src="./images/profile-radi.jpg">
+                                    </div>
+                                    <div class="message-body">
+                                        <h4>Abdur Radi</h4>
+                                    </div>
+                                </div>
+                                                <!------- MESSAGES ------->
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-imrul.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h4>Md. Imrul</h4>
+                    </div>
+                </div>
+            <!------- END OF MESSAGES ------->
+
+
+            <!------- Groups ------->
+            <div class="messages">
+                <div class="heading">
+                    <h4>Groups</h4>
+                    
+                </div>
+                    <!------- MESSAGES ------->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/group1.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h4>Inspired to be muslim</h4>
+                        </div>
+                    </div>
+                                                <!------- MESSAGES ------->
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/group2.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h4>Programming hero</h4>
+                    </div>
+                </div>
+<!------- Pages ------->
+<div class="messages">
+    <div class="heading">
+        <h4>Pages</h4>
+        
+    </div>
+                    <!------- MESSAGES ------->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/page1.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h4>Hackathon</h4>
+                        </div>
+                    </div>
+                                    <!------- MESSAGES ------->
+    <div class="message">
+        <div class="profile-photo">
+            <img src="./images/page2.jpg">
+        </div>
+        <div class="message-body">
+            <h4>Believer's-SIGN</h4>
+        </div>
+    </div>
+</div>
+        <!----------------- END OF RIGHT -------------------->
+    </div>
+</main>
+</body>
+</html>
